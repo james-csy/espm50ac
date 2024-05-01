@@ -1,0 +1,187 @@
+h1 {
+    font-family: sedan;
+}
+
+
+body {
+    margin: 0;
+}
+a.Berkeley {
+    font-size: 36px;
+    text-decoration-line: none;
+    color: #FFA405;
+    height: 60px;
+
+}
+
+a.subtitle {
+    font-size: 28px;
+    margin: 10px;
+    text-decoration-line: none;
+    color: white;
+}
+
+h1.sectionTitle {
+    font-size: 60px;
+}
+
+h1.sectionSubtitle {
+    font-size: 36px;
+    color: #0B1722;
+    margin-top: 0px;
+}
+
+a.link {
+    font-size: 20px;
+    margin: 40px;
+    text-decoration-line: none;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #0B1722;
+}
+
+
+.inknut-antiqua-extrabold {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+.just-another-hand-regular {
+    font-family: "Just Another Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.banner {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    -webkit-filter: grayscale(100%);
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pictext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerPic {
+    object-fit: cover;
+    max-width: 50%;
+    margin: 20px;
+    max-height: 350px;
+}
+
+.textbox {
+    max-width: 500px;
+    margin: 20px;
+}
+
+.largetextbox {
+    max-width: 900px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #FFA405;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+p {
+    font-family: barlow;
+}
+/* CSS */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 3px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #FFA405;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 10px;
+  left: 10px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+
+.buttons {
+    display: flex;
+}
+
+
+.button-53 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 3px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-53:after {
+    content: "";
+    background-color: #0B1722;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 10px;
+    left: 10px;
+    transition: 0.2s;
+  }
+  
+  .button-53:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-53 {
+      padding: 13px 50px 13px;
+    }
+  }
